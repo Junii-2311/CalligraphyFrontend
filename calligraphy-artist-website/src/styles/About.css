@@ -1,0 +1,108 @@
+/* About Page Styles */
+.about-page {
+    font-family: "Poppins", sans-serif;
+  }
+  
+  /* Hero Section */
+  .about-hero {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+    text-align: center;
+  }
+  
+  .hero-title {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  
+  /* About Content */
+  .about-content {
+    padding: 50px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .about-container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .about-image {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .about-text {
+    flex: 1;
+    max-width: 600px;
+  }
+  
+  .about-text h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .about-text p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #444;
+  }
+  
+  /* Call to Action */
+  .about-cta {
+    text-align: center;
+    background: #ffcc00;
+    padding: 40px;
+    margin-top: 40px;
+  }
+  
+  .about-cta h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .about-cta p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .about-cta .btn {
+    background: black;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background 0.3s;
+  }
+  
+  .about-cta .btn:hover {
+    background: #333;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .about-container {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .about-image {
+      width: 100%;
+      max-width: 300px;
+    }
+  }
+  

@@ -1,0 +1,55 @@
+.artwork-section {
+  background-color: #f8f9fa;
+  padding: 40px 0;
+}
+
+.artwork-card {
+  border: none;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.artwork-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.artwork-card img {
+  border-radius: 10px 10px 0 0;
+  object-fit: cover;
+  height: 200px; /* Ensures uniform image sizes */
+}
+
+.art-details {
+  list-style: none;
+  padding: 0;
+  margin-top: 8px;
+  font-size: 14px;
+  color: #555;
+}
+
+.art-details li {
+  padding: 2px 0;
+  transition: font-weight 0.3s ease, color 0.3s ease;
+}
+
+.art-details li:hover {
+  font-weight: bold;
+  color: #222;
+}
+
+.row.gx-2 {
+  --bs-gutter-x: 12px; /* Reducing horizontal gap */
+}
+
+.row.gy-4 {
+  --bs-gutter-y: 20px; /* Reducing vertical gap */
+}
+
+
+.artwork-card img {
+  border-radius: 8px;
+  height: 300px; /* Adjust height as needed */
+  object-fit: cover; /* Ensures the image fills the space without distortion */
+}

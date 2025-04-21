@@ -1,0 +1,22 @@
+.header {
+    transition: transform 0.4s ease-in-out;
+  }
+  
+  .header.hidden {
+    transform: translateY(-100%);
+  }
+  
+  .header.visible {
+    transform: translateY(0);
+  }
+  
+  .navbar .nav-link {
+    font-weight: normal;
+    transition: font-weight 0.3s ease, color 0.3s ease;
+  }
+  
+  .navbar .nav-link.active-link {
+    font-weight: bold;
+    color: #171716 !important;
+  }
+  
